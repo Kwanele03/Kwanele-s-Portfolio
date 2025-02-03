@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns: th="http://wwww.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name ="theme-color" content="#1bb566">
+	<title>Welcome Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>	
+<body>
+	<header class="header">
+	  <div class="container">
+	    <h1 class="header-title">Welcome to My Portfolio</h1>
+	    <p class="header-subtitle">Explore my journey as a software developer.</p>
+	    <nav class="nav">
+			 <a href="index">Home</a>
+			 <a href="about">About</a>
+			<a href="contacts">Contacts</a>
+			 <a href="skills">Skills</a>
+			 <a href="projects">Projects</a>
+	    </nav>
+	  </div>
+	</header>
+
+	<p th:text="${message}"></p>
+	
+	<footer class="footer">
+	  <div class="container">
+	    <p>&copy; 2025 Kwanele Ntshele. Designed with care.</p>
+	  </div>
+	</footer>
+</body>
+</html>
