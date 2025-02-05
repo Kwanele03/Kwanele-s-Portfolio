@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ProjectController {
 	@GetMapping("/projects")
-	public String project(Model model) {
+	public String project() {
 		return "projects";
 	}
 	
